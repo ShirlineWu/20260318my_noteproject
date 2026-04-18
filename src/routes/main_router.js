@@ -6,8 +6,6 @@ import AddNote from '../components/AddNote.vue'
 import SearchNote from '../components/SearchNote.vue'
 
 
-
-
 const routes = [
   // 基本路由
   {
@@ -40,7 +38,7 @@ const routes = [
 
 const router = createRouter({
   // 使用 HTML5 History 模式（網址較美觀，不含 #）
-  history: createWebHistory(),
+  history: createWebHashHistory('/20260318my_noteproject/'),
   routes,
   // 切換頁面時自動捲動到頂部
   scrollBehavior() {
@@ -51,3 +49,5 @@ const router = createRouter({
 
 
 export default router;
+
+
