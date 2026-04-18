@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 // 匯入你的頁面元件
 import NoteGrid from '../components/NoteGrid.vue'
 import EditNote from '../components/EditNote.vue'
