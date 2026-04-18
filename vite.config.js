@@ -3,6 +3,6 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/ShirlineWu/',
+  base: '/20260318my_noteproject/',
   plugins: [vue()],
 })
